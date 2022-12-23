@@ -1,0 +1,16 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+<img src="{ 'C:/Users/izyum/Desktop/lab04/DjangoWebProject1/DjangoWebProject1/app/static/app/content/abc.jpg' }" alt="abc" />
+<p>Use this area to provide additional information.</p>
+<content>{% load staticfiles %}</content>
+<address>
+    <strong>Сайт вуза:</strong>   <a href="mailto:moodle.surgu.ru">moodle.surgu.ru</a><br />
+    <b>Сайт языка программирования:</b> <a href="mailto:www.python.org">www.python.org</a>
+</address>
+
+  {% endblock %}
+
